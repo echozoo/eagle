@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class EagleAuthorizationServerApplication
+class EagleAuthorizationServer
 
 fun main(args: Array<String>) {
-    runApplication<EagleAuthorizationServerApplication>(*args)
+    runApplication<EagleAuthorizationServer>(*args)
 }

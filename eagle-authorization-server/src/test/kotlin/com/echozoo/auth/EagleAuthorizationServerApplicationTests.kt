@@ -9,5 +9,4 @@ class EagleAuthorizationServerApplicationTests {
     @Test
     fun contextLoads() {
     }
-
 }

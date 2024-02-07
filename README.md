@@ -16,18 +16,18 @@ eagle是一个开源项目，目的是希望给需要从 spring boot 3.0 开始�
 为什么建这个仓库？主要是有下面几个原因
 1. 在开始准备维护一个长期项目，需要用到 oauth2 来实现 token 颁发和各个服务间的鉴权。刚开始调研时发现spring boot 2.x用的oauth2.0那一套已经过时了，所以花了一些时间学习 **Spring Authorization Server**的使用，并将所
 2. 希望在学习过程中学一学怎么维护好一个项目
-3. 选用 kotlin 开发，单纯觉得 kotlin 写起来比 java 简洁
+3. 选用 kotlin 开发，单纯觉得 kotlin 写起来比 java 简洁,此项目可以用 java 平替
 
 ### 项目结构
 
 | module | 描述               | readme                                                              |
 |--------|------------------|---------------------------------------------------------------------|
-| eagle-authorization-server | 服务授权；token发布、刷新； | [eagle-authorization-server](/eagle-authorization-server/README.md) |
+| [eagle-authorization-server](/eagle-authorization-server) | 服务授权；token发布、刷新； | [README](/eagle-authorization-server/README.md) |
 
 
 ### todolist
 
-- [ ] authorization Server
+- [ ] authorization Server https://github.com/echozoo/eagle/issues/1
 - [ ] resource Server
 - [ ] client 
 
