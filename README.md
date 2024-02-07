@@ -27,7 +27,7 @@ eagle是一个开源项目，目的是希望给需要从 spring boot 3.0 开始�
 
 ### todolist
 
-- [ ] authorization Server
+- [ ] authorization Server #1
 - [ ] resource Server
 - [ ] client 
 
