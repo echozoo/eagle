@@ -1,6 +1,10 @@
 server:
   port: 8080
 
+# security 日志，一定开启方便排查问题
+logging:
+  level:
+    org.springframework.security: trace
 
 spring:
   application:
